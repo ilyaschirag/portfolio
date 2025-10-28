@@ -1,0 +1,547 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  
+}
+
+body{
+  background-color: black; 
+  /* rgb(6, 6, 39); */
+
+}
+
+.about{
+  /* background-color:black;  */
+  /* rgb(6, 6, 39); */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.aboutText{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 15px;
+width: 50%;
+gap: 5%;
+}
+
+.aboutText h1{
+  color: #EEAEF6;
+  font-size: 2em;
+  font-weight: bolder;
+  font-family: "Montserrat";
+}
+
+.aboutText p{
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.aboutText button{
+  height: 3rem;
+  width: 8rem;
+  color: rgb(2, 2, 2);
+  background-color: #EEAEF6;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.aboutImage img{
+  height: 300px;
+  width: auto;
+  margin-top: 20px;
+}
+
+/* eduction css starts from here */
+
+.education{
+  height: 70vh;
+  color: rgb(242, 244, 242);
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+
+.educationHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: rgb(110, 108, 108);
+  text-shadow: 0.5px 0.5px white;
+}
+
+.timelineEducation{
+  position: relative;
+  margin: 10px;
+  height: 70vh;
+}
+
+.timelineEducation::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 2px;
+  left: 390px;
+  background-color: rgb(80, 127, 214);
+  height: 100%;
+}
+
+.degreeEducation{
+  position: absolute;
+  left: 375px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Btech{
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: 2px solid rgb(40, 10, 205);
+  background-color: rgb(40, 10, 205);
+  
+}
+
+
+.horizontalLine::before{
+  content: "";
+  position: absolute;
+  top: 40px;
+  width: 40px;
+  height: 3px;
+  left: 35px;
+  background-color: rgb(80, 127, 214);
+}
+
+.twelthEducation{
+  position: absolute;
+  left: 375px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.tenthEducation{
+  position: absolute;
+  left: 375px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  margin-top: 270px;
+}
+
+/* skills css start from here */
+
+
+.skills{
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.techHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: rgb(110, 108, 108);
+  text-shadow: 0.5px 0.5px white;
+}
+
+.techs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.skillCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+  box-shadow: 1px 1px white;
+  border-radius: 20px;
+  background-color: rgb(24, 5, 42);
+}
+
+#HTML:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#CSS:hover{
+ background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#JS:hover{
+ background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#REACT:hover{
+background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#SQL:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#C:hover{
+ background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#CPP:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#PYTHON:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+.skillCard img{
+  height: 100px;
+  width: 100px;
+}
+
+.skillCard h1{
+  color: white;
+}
+
+
+/* this css is for Certification */
+.certification{
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.certiHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  color: rgb(110, 108, 108);
+  text-shadow: 0.5px 0.5px white;
+}
+
+.certificates{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.Certificate{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 450px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.Certificate img{
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.Certificate p{
+  color: white;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  padding: 20px;
+}
+
+.form label{
+     font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+.form h1{
+    color: rgb(110, 108, 108);
+    text-shadow: 0.5px 0.5px white;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+
+.form form{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form form Input{
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.form form select{
+  color: black;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.buttonSubmit{
+    background-color: rgb(83, 5, 125);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+   font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+/* tablet view */
+
+@media (min-width: 481px ) and (max-width: 1024px) {
+ 
+  .aboutImage img{
+    height: 400px;
+    width: 350px;
+    margin-top: 20px;
+  }
+
+  .education{
+    height: 40vh;
+  }
+
+  /* education timeline */
+
+  .timelineEducation::before{
+      left: 230px;
+
+  }
+
+  .degreeEducation{
+    font-size: 1rem;
+    left: 215px;
+    gap: 30px;
+
+  }
+
+  .twelthEducation{
+    font-size: 1rem;
+    left: 215px;
+    top: 40px;
+    gap: 30px;
+    
+  }
+
+   .tenthEducation{
+    font-size: 1rem;
+    left: 215px;
+    top: 70px;
+    gap: 30px;
+  }
+
+  .horizontalLine::before{
+    top: 40px;
+    width: 45px;
+    height: 3px;
+    left: 35px;
+  }
+
+}
+
+/* mobile view */
+@media screen and (max-width: 480px)  { 
+  
+  .about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .aboutText{
+    width: 100vw;
+    align-items: center;
+  }
+
+  .aboutText p{
+    display: none;
+  }
+
+  .aboutText button{
+    display: none;
+  }
+
+  .aboutImage img{
+    height: 200px;
+    width: auto;
+    margin-top: -17px;
+  }
+
+  /* education timeline */
+  .education{
+    height: 65vh;
+  }
+  .timelineEducation::before{
+      left: 20px;
+  }
+
+  .degreeEducation{
+    font-size: 1rem;
+    left: 12px;
+    gap: 30px;
+  }
+
+  .twelthEducation{
+     font-size: 1rem;
+    left: 12px;
+    gap: 30px;
+    top: 30px;
+  }
+
+   .tenthEducation{
+     font-size: 1rem;
+    left: 12px;
+    gap: 30px;
+    top: 40px;
+  }
+
+  .horizontalLine::before{
+    top: 50px;
+    width: 45px;
+    height: 3px;
+    left: 27px;
+  }
+
+  .skillCard{
+    height: 200px;
+    width: 200px;
+  }
+
+  #HTML:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#CSS:hover{
+background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#JS:hover{
+ background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#REACT:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#SQL:hover{
+background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#C:hover{
+  background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#CPP:hover{
+ background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+#PYTHON:hover{
+ background-color: rgb(224, 66, 66);
+  transition: ease-in-out 1s;
+}
+
+.skillCard img{
+  height: 150px;
+  width: 150px;
+}
+
+/* certificates css */
+
+.Certificate{
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.Certificate img{
+  height: 200px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.Certificate p{
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+}
+}
