@@ -29,7 +29,7 @@ function Form(){
                 <option value="">Video Editing</option>
             </select>
 
-            <input type="submit" className="buttonSubmit" />
+            <input type="submit" className="buttonSubmit" onClick={scroll} />
         </form>
         </div>
     )
