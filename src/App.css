@@ -352,6 +352,20 @@ background-color: rgb(224, 66, 66);
     font-weight: bolder;
 }
 
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer img{
+  height: 40px;
+  width: 40px;
+  border-radius: 30%;
+}
+
 /* tablet view */
 
 @media (min-width: 481px ) and (max-width: 1024px) {

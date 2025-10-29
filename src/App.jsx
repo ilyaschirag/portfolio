@@ -5,6 +5,7 @@ import Education from './components/Education'
 import Skills from './components/Skills'
 import Certification from './components/Certification'
 import Form from './components/Form'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
      <Skills/>
      <Certification/>
      <Form/>
+     <Footer/>
     </>
   )
 }
