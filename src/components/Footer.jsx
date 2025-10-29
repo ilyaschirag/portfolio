@@ -6,8 +6,8 @@ import linkedIn from '../assets/linkedinLogo.png'
 function Footer(){
     return(
         <div className='footer'>
-            <a href=""><img src={insta} alt=""  /></a>
-            <a href=""><img src={linkedIn} alt=""  /></a>
+            <a href="https://www.instagram.com/code_with_sutta?igsh=NTN3cTVqdXQweG82"><img src={insta} alt=""  /></a>
+            <a href="https://www.linkedin.com/in/chirag-goyal-26b752364/"><img src={linkedIn} alt=""  /></a>
             <a href="https://github.com/ilyaschirag"><img src={github} alt=""  /></a>
         </div>
     )
