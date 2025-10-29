@@ -9,7 +9,7 @@ function Form(){
     }
 
     return(
-        <div className="form" id="contact">
+        <div className="form" id="form">
             <h1>Contact Me</h1>
         <form action="">
             <label htmlFor="username">Enter Your Name</label>
@@ -29,7 +29,7 @@ function Form(){
                 <option value="">Video Editing</option>
             </select>
 
-            <input type="submit" className="buttonSubmit" onClick={scroll} />
+            <input type="submit" className="buttonSubmit" />
         </form>
         </div>
     )
