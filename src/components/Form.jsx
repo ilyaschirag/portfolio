@@ -2,8 +2,14 @@ import React from "react";
 import Input from "./Input";
 
 function Form(){
+
+    function scroll(){
+        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+
+    }
+
     return(
-        <div className="form">
+        <div className="form" id="contact">
             <h1>Contact Me</h1>
         <form action="">
             <label htmlFor="username">Enter Your Name</label>
